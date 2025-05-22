@@ -779,6 +779,8 @@ html {
     justify-content: center;
     border: 1px solid black;
     transition: 0.3s ease-in-out;
+    color: black;
+    text-decoration: none;
 }
 
 .product-container:hover {
@@ -1012,6 +1014,8 @@ html {
     text-transform: uppercase;
     letter-spacing: 0.5px;
     margin-bottom: 15px;
+    color: white;
+    text-decoration: none;
 }
 
 .footer-text-desc {
@@ -1020,6 +1024,8 @@ html {
     letter-spacing: 0.5px;
     cursor: pointer;
     transition: 0.3s ease-in-out;
+    color: white;
+    text-decoration: none;
 }
 
 .footer-text-desc:hover {
@@ -1283,9 +1289,10 @@ html {
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    gap: 75px;
+    gap: 250px;
     border-right: 1px solid black;
     padding-right: 30px;
+    object-fit: cover;
 }
 
 .product-info {
@@ -1405,6 +1412,10 @@ html {
     transition: 0.3s ease-in-out;
 }
 
+.text-size-btn.active::after {
+    width: 100%;
+}
+
 .button-size:hover .text-size-btn::after {
     width: 100%;
 }
@@ -1438,7 +1449,7 @@ html {
 .total-order {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 30px;
     position: absolute;
     left: 150px;
     top: 450px;
@@ -1455,6 +1466,10 @@ html {
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
     text-transform: capitalize;
+    width: 10px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 .total-text-btn {
