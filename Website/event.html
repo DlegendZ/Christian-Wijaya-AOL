@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christian Wijaya - Event Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="header-div">
+            <button class="button menu-btn" onclick="">menu</button>
+            <button class="logo-btn" onclick="">
+                <img src="assets/logo.png" alt="logo.png" class="logo-header">
+            </button>
+            <div class="button-group">
+                <button class="button" onclick="">
+                    <img src="assets/search.png" alt="search.png" class="button-img">
+                </button>
+                <button class="button" onclick="">
+                    <img src="assets/profile.png" alt="profile.png" class="button-img">
+                </button>
+                <button class="button" onclick="">
+                    <img src="assets/shopping bag.png" alt="shopping-bag.png" class="button-img">
+                </button>
+            </div>
+        </div>
+        <div class="overlay" id="overlay"></div>
+        <nav class="side-navbar">
+            <button class="close-button">close</button>
+            <ul class="menu-option">
+                <li class="list"><a href="index.html" class="nav-link">home</a></li>
+                <li class="list"><a href="product.html" class="nav-link">product</a></li>
+                <li class="list"><a href="event.html" class="nav-link">event</a></li>
+                <li class="list"><a href="about.html" class="nav-link">about us</a></li>
+                <hr class="line-1">
+                <li class="list"><a href="#" class="nav-link">services</a></li>
+                <li class="list"><a href="#" class="nav-link">sign in</a></li>
+                <li class="list"><a href="#" class="nav-link">my orders</a></li>
+                <li class="list"><a href="#" class="nav-link">contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container img-10">
+        <h1 class="event-quote">Become Part of the Story</h1>
+        <span class="event-description">We're looking for individuals who carry the spirit of quiet elegance,
+            confidence, and timeless grace.
+            If you feel called to represent the heart of Christian Wijaya, we welcome you to register below.</span>
+    </div>
+    <div class="container img-11">
+        <div class="registration-form">
+            <span class="form-heading">model registration</span>
+            <form action="#" method="get" class="form">
+                <label for="name" class="form-label">Full Name</label>
+                <input id="name" type="text" name="name" placeholder="e.g., Clara Aveline" class="input-form" required>
+
+                <label for="email" class="form-label">Email Address</label>
+                <input id="email" type="email" name="email" placeholder="e.g., clara@email.com" class="input-form" required>
+
+                <label for="date-of-birth" class="form-label">Date of Birth</label>
+                <input id="date-of-birth" type="date" name="date" class="input-form" required>
+
+                <label for="gender" class="form-label">Gender</label>
+                <select id="gender" name="gender" class="input-form" required>
+                    <option value="">Select a gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+
+                <label class="form-label terms">
+                    <input type="checkbox" name="terms" class="checkbox-box" required>
+                    I agree to the&nbsp;<a href="#" class="terms-conditions">Terms & Conditions</a>
+                </label>
+
+                <button class="registration-submit-button"><span class="submit-text">submit</span></button>
+            </form>
+
+        </div>
+        <div class="registration-img">
+            <img src="assets/Vintage Elegance in Earthy Tones.png" alt="Vintage Elegance in Earthy Tones.png" class="registration-model">
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-cat">
+                <span class="footer-text-title">Help</span>
+                <span class="footer-text-desc">Client Services</span>
+                <span class="footer-text-desc">FAQ</span>
+                <span class="footer-text-desc">Product Care</span>
+                <span class="footer-text-desc">Stores</span>
+            </div>
+            <div class="footer-cat">
+                <span class="footer-text-title">Services</span>
+                <span class="footer-text-desc">Repairs</span>
+                <span class="footer-text-desc">Personalization</span>
+                <span class="footer-text-desc">Gifting Consultation</span>
+                <span class="footer-text-desc">Virtual Styling</span>
+            </div>
+            <div class="footer-cat">
+                <span class="footer-text-title">About</span>
+                <span class="footer-text-desc">Our Story</span>
+                <span class="footer-text-desc">Craftmanship</span>
+                <span class="footer-text-desc">Sustainability</span>
+                <span class="footer-text-desc">Latest News</span>
+            </div>
+            <div class="footer-cat">
+                <span class="footer-text-title">Connect</span>
+                <span class="footer-text-desc">Subscribe To Newsletter</span>
+                <span class="footer-text-desc">Follow Us</span>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span class="footer-copyright">
+                © 2025 Christian Wijaya. All Rights Reserved.
+            </span>
+        </div>
+        <div class="footer-img-bottom">
+            <img src="assets/logo.png" alt="logo.png" class="logo-footer">
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

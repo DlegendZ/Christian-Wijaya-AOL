@@ -1,5 +1,5 @@
 ::-webkit-scrollbar {
-    width: 4px;
+    width: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -8,6 +8,7 @@
 
 ::-webkit-scrollbar-thumb {
     background-color: #666;
+    width: 100%;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -739,6 +740,14 @@ html {
     border: 1px solid black;
 }
 
+.img-10 {
+    background-color: #4B2E2B;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
 .product-title {
     text-align: center;
     font-family: "Montserrat", sans-serif;
@@ -822,6 +831,154 @@ html {
     background-color: #FAF3E0;
 }
 
+.event-quote {
+    color: white;
+    font-family: "Playfair", serif;
+    font-size: 55px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    top: 120px;
+}
+
+.event-description {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 210px;
+    text-align: center;
+    width: 850px;
+    letter-spacing: 0.5px;
+}
+
+.img-11 {
+    width: 100%;
+    background-color: #FAF3E0;
+    height: 600px;
+}
+
+.registration-form {
+    width: 60%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.registration-img {
+    width: 40%;
+    height: 100%;
+    position: relative;
+}
+
+.registration-model {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.form-heading {
+    font-family: "Playfair", serif;
+    font-size: 40px;
+    text-transform: capitalize;
+    padding-top: 40px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.form {
+  position: absolute;
+  top: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 500px;
+  height: 500px;
+}
+
+.form-label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+}
+
+.input-form {
+  width: 100%;
+  height: 35px;
+  background-color: #FAF3E0;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0 20px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  color: #333;
+  appearance: none;
+  cursor: text;
+}
+
+.terms {
+    position: absolute;
+    bottom: 120px;
+}
+
+.checkbox-box {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.terms-conditions {
+    color: black;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 1px;
+}
+
+.registration-submit-button {
+  background-color: #4B2E2B;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 50px;
+  width: 200px;
+  height: 50px;
+}
+
+.submit-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.submit-text::after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0.5px;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.registration-submit-button:hover .submit-text::after {
+    width: 100%;
+}
+
+
 .footer {
     background-color: black;
     width: 100%;
@@ -893,5 +1050,492 @@ html {
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+
+.img-12 {
+    width: 100%;
+    height: 580px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.building {
+    width: 100%;
+}
+
+.about-us-heading {
+    color: white;
+    font-family: "Playfair", serif;
+    font-size: 60px;
+    letter-spacing: 0.5px;
+    font-weight: 200;
+    position: absolute;
+    top: 150px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.about-us-description {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    position: absolute;
+    top: 350px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    opacity: 0.7;
+    font-weight: 200;
+}
+
+.img-13 {
+    background-color: #FAF3E0;
+    width: 100%;
+    height: 500px;
+}
+
+.brown_model {
+    position: absolute;
+    right: 0;
+    width: 36.3%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-13-heading {
+    font-family: "Playfair", serif;
+    font-size: 35px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 250;
+    position: absolute;
+    left: 150px;
+    top: 125px;
+}
+
+.img-13-desc-1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    width: auto;
+    letter-spacing: 0.5px;
+    position: absolute;
+    left: 150px;
+    top: 200px;
+    font-weight: 270;
+}
+
+.img-13-desc-2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    width: auto;
+    letter-spacing: 0.5px;
+    position: absolute;
+    left: 150px;
+    top: 300px;
+    font-weight: 270;
+}
+
+.img-14 {
+    width: 100%;
+    height: 1075px;
+    background-color: #FAF3E0;
+}
+
+.img-16 {
+    background-color: #4B2E2B;
+    width: 100%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-16-span {
+    color: white;
+    font-family: "Playfair", serif;
+    font-size: 55px;
+    font-weight: 350;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.our-story-img {
+    width: 975px;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+}
+
+.logo-2-img {
+    width: 450px;
+    height: 500px;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    object-fit: cover;
+}
+
+.magnifier-img {
+    width: 450px;
+    height: 500px;
+    position: absolute;
+    bottom: 30px;
+    left: 525px;
+    object-fit: cover;
+}
+
+.castle-img {
+    width: 475px;
+    height: 600px;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    object-fit: cover;
+    object-position: center left;
+}
+
+.img-14-heading {
+    text-transform: capitalize;
+    font-weight: 250;
+    font-family: "Playfair", serif;
+    font-size: 50px;
+    position: absolute;
+    right: 200px;
+    top: 30px;
+}
+
+.img-14-description {
+    text-transform: capitalize;
+    font-weight: 250;
+    font-family: "Montserrat", serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    width: 400px;
+    position: absolute;
+    right: 55px;
+    top: 210px;
+}
+
+.img-15 {
+    width: 100%;
+    height: 400px;
+    background-color: #FAF3E0;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+}
+
+.box {
+    background-color: transparent;
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.box-img {
+    width: 100%;
+    height: 170px;
+    object-fit: contain;
+    position: absolute;
+}
+
+.box-heading {
+    font-family: "Playfair", serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    text-align: center;
+    position: absolute;
+    top: 230px;
+}
+
+.box-description {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 250;
+    width: 250px;
+    text-align: center;
+    position: absolute;
+    top: 260px;
+}
+
+.img-17 {
+    width: 100%;
+    height: 600px;
+    background-color: #FAF3E0;
+}
+
+.product-detail-layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 150px 100px 100px 100px;
+    background-color: #FAF3E0;
+}
+
+.product-images {
+    flex: 1;
+    max-height: 90vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+    border-right: 1px solid black;
+    padding-right: 30px;
+}
+
+.product-info {
+    flex: 2 0 0px;
+    position: sticky;
+    top: 100px;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 20px;
+}
+
+.front-display {
+    width: 400px;
+    height: 600px;
+}
+
+.back-display {
+    width: 400px;
+    height: 600px;
+}
+
+.back-button {
+    border: none;
+    width: fit-content;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    background-color: transparent;
+    position: relative;
+    top: 20px;
+    left: 100px;
+    margin-bottom: 20px;
+    gap: 20px;
+    
+}
+
+.back-button-img {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.back-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.product-display-title {
+    text-transform: capitalize;
+    font-family: "Playfair", serif;
+    font-size: 45px;
+    color: black;
+    font-weight: 250;
+    position: absolute;
+    padding: 0;
+    left: 150px;
+    top: 70px;
+    letter-spacing: 0.5px;
+}
+
+.product-display-price {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    position: absolute;
+    left: 150px;
+    top: 120px;
+}
+
+.button-container {
+    background-color: transparent;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    position: absolute;
+    top: 160px;
+    left: 150px;
+}
+
+.text-size {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+}
+
+.button-size {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.text-size-btn {
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+}
+
+.text-size-btn::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0.5px;
+    background-color: black;
+    transition: 0.3s ease-in-out;
+}
+
+.button-size:hover .text-size-btn::after {
+    width: 100%;
+}
+
+.request-text {
+    font-family: "Playfair", serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    position: absolute;
+    left: 150px;
+    top: 200px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.product-description {
+    font-family: "Playfair", serif;
+    font-size: 20px;
+    width: 600px;
+    height: 100px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    position: absolute;
+    top: 280px;
+    left: 150px;
+}
+
+.total-order {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: absolute;
+    left: 150px;
+    top: 450px;
+}
+
+.total-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-right: 5px;
+}
+
+.total-text-span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.total-text-btn {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.product-detail-button-container {
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    position: absolute;
+    left: 150px;
+    top: 500px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.product-detail-btn {
+    border: none;
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.add-to-bag {
+    background-color: #ffff;
+    border: 1px solid #2F3E2E;
+}
+
+.order-now {
+    background-color: #2F3E2E;
+    border: 1px solid #2F3E2E;
+}
+
+.product-detail-btn-text-1 {
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    font-size: 16px;
+    position: relative;
+}
+
+.product-detail-btn-text-1::after {
+    content: "";
+    background-color: black;
+    width: 0;
+    height: 0.5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.add-to-bag:hover .product-detail-btn-text-1::after {
+    width: 100%;
+}
+
+.product-detail-btn-text-2 {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 16px;
+    position: relative;
+}
+
+.product-detail-btn-text-2::after {
+    content: "";
+    background-color: white;
+    width: 0;
+    height: 0.5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.order-now:hover .product-detail-btn-text-2::after {
+    width: 100%;
 }
 /*content*/

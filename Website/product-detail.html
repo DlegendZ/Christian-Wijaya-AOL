@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christian WIjaya - Product Detail Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="header-div">
+            <button class="button menu-btn" onclick="">menu</button>
+            <button class="logo-btn" onclick="">
+                <img src="assets/logo.png" alt="logo.png" class="logo-header">
+            </button>
+            <div class="button-group">
+                <button class="button" onclick="">
+                    <img src="assets/search.png" alt="search.png" class="button-img">
+                </button>
+                <button class="button" onclick="">
+                    <img src="assets/profile.png" alt="profile.png" class="button-img">
+                </button>
+                <button class="button" onclick="">
+                    <img src="assets/shopping bag.png" alt="shopping-bag.png" class="button-img">
+                </button>
+            </div>
+        </div>
+        <div class="overlay" id="overlay"></div>
+        <nav class="side-navbar">
+            <button class="close-button">close</button>
+            <ul class="menu-option">
+                <li class="list"><a href="index.html" class="nav-link">home</a></li>
+                <li class="list"><a href="product.html" class="nav-link">product</a></li>
+                <li class="list"><a href="event.html" class="nav-link">event</a></li>
+                <li class="list"><a href="about.html" class="nav-link">about us</a></li>
+                <hr class="line-1">
+                <li class="list"><a href="#" class="nav-link">services</a></li>
+                <li class="list"><a href="#" class="nav-link">sign in</a></li>
+                <li class="list"><a href="#" class="nav-link">my orders</a></li>
+                <li class="list"><a href="#" class="nav-link">contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="img-17 product-detail-layout">
+        <div class="product-images">
+            <img src="assets/gown 1 front.png" alt="gown 1 front.png" class="front-display">
+            <img src="assets/gown 1 back.png" alt="gown 1 back.png" class="back-display">
+        </div>
+        <div class="product-info">
+            <button class="back-button">
+                <img src="assets/back.png" alt="back.png" class="back-button-img">
+                <span class="back-text">Back</span>
+            </button>
+            <span class="product-display-title">selene in smoke</span>
+            <span class="product-display-price">IDR 285.000.000</span>
+            <div class="button-container">
+                <span class="text-size">size :</span>
+                <button class="button-size" onclick=""><span class="text-size-btn">s</span></button>
+                <button class="button-size" onclick=""><span class="text-size-btn">m</span></button>
+                <button class="button-size" onclick=""><span class="text-size-btn">l</span></button>
+            </div>
+            <button class="request-text" onclick="">request custom fitting</button>
+            <span class="product-description">A softly structured linen dress with vintage buttons and romantic pleats —
+                timeless, breathable, and effortlessly elegant.</span>
+            <div class="total-order">
+                <span class="total-text">total :</span>
+                <button class="total-text-btn" onclick="">-</button>
+                <span class="total-text-span">1</span>
+                <button class="total-text-btn" onclick="">+</button>
+            </div>
+            <div class="product-detail-button-container">
+                <button class="product-detail-btn add-to-bag"><span class="product-detail-btn-text-1">Add to Bag</span></button>
+                <button class="product-detail-btn order-now"><span class="product-detail-btn-text-2">Order Now</span></button>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-cat">
+                <span class="footer-text-title">Help</span>
+                <span class="footer-text-desc">Client Services</span>
+                <span class="footer-text-desc">FAQ</span>
+                <span class="footer-text-desc">Product Care</span>
+                <span class="footer-text-desc">Stores</span>
+            </div>
+            <div class="footer-cat">
+                <span class="footer-text-title">Services</span>
+                <span class="footer-text-desc">Repairs</span>
+                <span class="footer-text-desc">Personalization</span>
+                <span class="footer-text-desc">Gifting Consultation</span>
+                <span class="footer-text-desc">Virtual Styling</span>
+            </div>
+            <div class="footer-cat">
+                <span class="footer-text-title">About</span>
+                <span class="footer-text-desc">Our Story</span>
+                <span class="footer-text-desc">Craftmanship</span>
+                <span class="footer-text-desc">Sustainability</span>
+                <span class="footer-text-desc">Latest News</span>
+            </div>
+            <div class="footer-cat">
+                <span class="footer-text-title">Connect</span>
+                <span class="footer-text-desc">Subscribe To Newsletter</span>
+                <span class="footer-text-desc">Follow Us</span>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span class="footer-copyright">
+                © 2025 Christian Wijaya. All Rights Reserved.
+            </span>
+        </div>
+        <div class="footer-img-bottom">
+            <img src="assets/logo.png" alt="logo.png" class="logo-footer">
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
