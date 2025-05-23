@@ -936,6 +936,7 @@ html {
 .checkbox-box {
     margin-right: 10px;
     cursor: pointer;
+    accent-color: black;
 }
 
 .terms-conditions {
@@ -1552,5 +1553,18 @@ html {
 
 .order-now:hover .product-detail-btn-text-2::after {
     width: 100%;
+}
+
+.radio-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.radio {
+    accent-color: black;
+    font-size: 15px;
 }
 /*content*/

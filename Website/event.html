@@ -56,31 +56,30 @@
     <div class="container img-11">
         <div class="registration-form">
             <span class="form-heading">model registration</span>
-            <form action="#" method="get" class="form">
+            <form action="#" id="registration-form-id" method="POST" class="form">
                 <label for="name" class="form-label">Full Name</label>
                 <input id="name" type="text" name="name" placeholder="e.g., Clara Aveline" class="input-form" required>
-
                 <label for="email" class="form-label">Email Address</label>
                 <input id="email" type="email" name="email" placeholder="e.g., clara@email.com" class="input-form" required>
-
                 <label for="date-of-birth" class="form-label">Date of Birth</label>
                 <input id="date-of-birth" type="date" name="date" class="input-form" required>
-
-                <label for="gender" class="form-label">Gender</label>
-                <select id="gender" name="gender" class="input-form" required>
-                    <option value="">Select a gender</option>
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                </select>
-
-                <label class="form-label terms">
-                    <input type="checkbox" name="terms" class="checkbox-box" required>
+                <label class="form-label">Gender</label>
+                <div class="radio-container">
+                    <label for="male" class="form-label radio">
+                    <input type="radio" id="male" value="male" name="gender">
+                        Male
+                    </label>
+                    <label for="female" class="form-label radio">
+                        <input type="radio" id="female" value="female" name="gender">
+                        Female
+                    </label>
+                </div>
+                <label class="form-label terms" for="agreement">
+                    <input id="agreement" type="checkbox" name="terms" class="checkbox-box" required>
                     I agree to the&nbsp;<a href="#" class="terms-conditions">Terms & Conditions</a>
                 </label>
-
-                <button class="registration-submit-button" onclick="window.location.href='#'"><span class="submit-text">submit</span></button>
+                <button class="registration-submit-button" type="submit"><span class="submit-text">register now</span></button>
             </form>
-
         </div>
         <div class="registration-img">
             <img src="assets/Vintage Elegance in Earthy Tones.png" alt="Vintage Elegance in Earthy Tones.png" class="registration-model">

@@ -170,4 +170,48 @@ total_text_btn.forEach(btn => {
     });
 });
 
+function verif_data() {
+    const name = document.getElementById("name");
+    const email = document.getElementById("email");
+    const dob = document.getElementById("date-of-birth");
+    const gender = document.getElementById("gender");
+    const agreement = document.getElementById("agreement");
+    const male = document.getElementById("male");
+    const female = document.getElementById("female");
+    const now = new Date();
 
+    const age = now.getFullYear() - new Date(dob.value).getFullYear();
+    
+    if (name.value.trim().length < 5) {
+        alert("Username must be at least 5 characters.");
+        return;
+    }
+    
+    if (!email.value.endsWith("@gmail.com")) {
+        alert("Email must end with @gmail.com");
+        return;
+    }
+
+    if (age < 17) {
+        alert("Registrant must be at least 17 years old.");
+        return;
+    }
+
+    if (!male.checked && !female.checked) {
+        alert("Gender must be selected.");
+        return;
+    }
+
+    if (!agreement.checked) {
+        alert("Agreement must be checked.");
+        return;
+    }
+}
+
+if (window.location.pathname.includes("event.html")) {
+    const registration_form = document.getElementById("registration-form-id");
+    registration_form.addEventListener("submit", function(e) {
+        e.preventDefault();
+        verif_data();
+    });
+};
