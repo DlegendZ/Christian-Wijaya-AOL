@@ -187,24 +187,33 @@ function verif_data() {
         return;
     }
     
-    if (!email.value.endsWith("@gmail.com")) {
+    else if (!email.value.endsWith("@gmail.com")) {
         alert("Email must end with @gmail.com");
         return;
     }
 
-    if (age < 17) {
+    else if (age < 17) {
         alert("Registrant must be at least 17 years old.");
         return;
     }
 
-    if (!male.checked && !female.checked) {
+    else if (!male.checked && !female.checked) {
         alert("Gender must be selected.");
         return;
     }
 
-    if (!agreement.checked) {
+    else if (!agreement.checked) {
         alert("Agreement must be checked.");
         return;
+    } 
+
+    else {
+        const submitted = confirm("Are you sure you want to submit?");
+        if (submitted) {
+            alert("Registration form has been submitted.");
+        } else {
+            alert("Submission has been cancelled.")
+        }
     }
 }
 

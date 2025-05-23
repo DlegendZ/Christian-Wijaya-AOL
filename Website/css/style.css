@@ -693,6 +693,7 @@ html {
     background-color: #4B2E2B;
     display: flex;
     justify-content: center;
+    margin-top: 100px;
 }
 
 .video {
@@ -729,6 +730,7 @@ html {
     color: white;
     opacity: 0.7;
     letter-spacing: 0.5px;
+    text-align: center;
 }
 
 .img-9 {
@@ -738,14 +740,6 @@ html {
     display: flex;
     justify-content: center;
     border: 1px solid black;
-}
-
-.img-10 {
-    background-color: #4B2E2B;
-    width: 100%;
-    height: 300px;
-    display: flex;
-    justify-content: center;
 }
 
 .product-title {
@@ -831,6 +825,14 @@ html {
     height: 40px;
     border: 1px solid black;
     background-color: #FAF3E0;
+}
+
+.img-10 {
+    background-color: #4B2E2B;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
 }
 
 .event-quote {
@@ -1062,7 +1064,6 @@ html {
 .img-12 {
     width: 100%;
     height: 580px;
-    background-color: red;
     display: flex;
     justify-content: center;
 }
@@ -1567,4 +1568,695 @@ html {
     accent-color: black;
     font-size: 15px;
 }
-/*content*/
+
+@media screen and (max-width: 768px) {
+    .header {
+        height: 70px;
+    }
+
+    .logo-btn {
+        width: 110px;
+        height: 100%;
+    }
+
+    .menu-btn {
+        font-size : 12px;
+        left: 20px;
+        letter-spacing: 0.5px;
+    }
+
+    .button-group {
+        position: absolute;
+        left: 70%;
+        display: flex;
+        flex-direction: row;
+        width: 120px;
+        height: 100;
+        gap: 0px;
+    }
+
+    .button-img {
+        width: 12px;
+    }
+
+    .side-navbar {
+        width: 300px;
+    }
+
+    .side-navbar.active {
+        width: 300px;
+    }
+
+    .close-button {
+        font-size: 12px;
+        position: absolute;
+        left: 20px;
+        letter-spacing: 0.5px;
+    }
+
+    .nav-link {
+        font-size: 12px;
+    }
+
+    .img-1 {
+        width: 100%;
+        height: 500px;
+    }
+
+    .logo-img {
+        width: 70%;
+        height: auto;
+    }
+
+    .img-2 {
+        width: 100%;
+        height: 450px;
+    }
+
+    .heading {
+        font-size: 15px;
+    }
+
+    .desc {
+        font-size: 12px;    
+        width: 250px;
+    }
+
+    .option-button {
+        padding: 8px 20px;
+    }
+
+    .btn-1 {
+        left: 5%;
+    }
+
+    .btn-2 {
+        left: 50%;
+    }
+
+    .underlined-text {
+        font-size: 12px;
+    }
+
+    .img-3 {
+        height: 1120px;
+    }
+
+    .about-text {
+        font-size: 12px;
+    }
+
+    .container-heading {
+        font-size: 30px;
+        text-align: center;
+        top: 50px;
+        width: 275px;
+    }
+
+    .description-text {
+        top: 90px;
+        font-size: 10px;
+        width: 300px;
+    }
+
+    .treasures-kind {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .treasures-btn {
+        width: 250px;
+    }
+
+    .img-4 {
+        height: 150px;
+    }
+
+    .words-of-wisdom {
+        font-size: 25px;
+        width: 85%;
+        top: 30px;
+    }
+
+    .people-name {
+        font-size: 12px;
+    }
+
+    .img-5 {
+        height: 1450px;
+    }
+
+    .gown-kind {
+        flex-direction: column;
+        align-items: center;
+        gap: 45px;
+    }
+
+    .gown-btn {
+        width: 80%;
+        height: auto;
+        flex-direction: column;
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .gown-img {
+        width: 200px;
+        height: 300px;
+    }
+
+    .gown-info-name,
+    .gown-info-price {
+        position: static;
+        text-align: center;
+    }
+
+    .gown-info-name {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .gown-info-price {
+        font-size: 12px;
+    }
+
+    .img-6 {
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .part-1 {
+        width: 100%;
+        height: 500px;
+    }
+
+    .part-2 {
+        width: 100%;
+        height: 500px;
+        position: relative;
+    }
+
+    .linen-text {
+        font-size: 25px;
+        width: 100%;
+        text-align: center;
+        color: white;
+        position: absolute;
+        top: 55px;
+    }
+
+    .img-7 {
+        height: 1750px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .big-area {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .area-child {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        position: relative;
+    }
+
+    .area-child-title {
+        font-size: 15px;
+        position: static;
+        margin-top: 10px;
+    }
+
+    .area-child-desc {
+        position: static;
+        font-size: 12px;
+    }
+
+    .underlined-button-area {
+        position: static;
+        font-size: 15px;
+        width: 300px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .footer-top {
+        text-align: center;
+    }
+
+    .footer-text-title {
+        font-size: 15px;
+    }
+
+    .footer-text-desc {
+        font-size: 12px;
+    }
+
+    .footer-copyright {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    .footer-img-bottom {
+        width: 100%;
+        height: 250px;
+        background-color: #B1964C;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo-footer {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .img-8 {
+        height: 500px;
+        object-fit: contain;
+        margin: 0;
+    }
+
+    .section-header {
+        height: 135px;
+    }
+
+    .section-heading {
+        font-size: 20px;
+    }
+
+    .section-description {
+        font-size: 12px;
+        text-align: center;
+        width: 300px;
+    }
+
+    .img-9 {
+        height: 1100px;
+    }
+
+    .product-title {
+        font-size: 12px;
+    }
+
+    .products-container {
+        height: 900px;
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 100px;
+    }
+
+    .product-container {
+        width: 50%;
+        height: 450px;
+        position: relative;
+        box-sizing: border-box;
+    }
+
+    .product-display-gown {
+        width: 180px;
+        height: 300px;
+    }
+
+    .product-display-bag {
+        width: 150px;
+        height: 180px;
+        top: 100px;
+    }
+
+    .product-display-shoes {
+        width: 150px;
+        height: 150px;
+        object-fit: fill;
+        top: 100px;
+    }
+
+    .product-name {
+        font-size: 15px;
+    }
+
+    .product-price {
+        font-size: 12px;
+    }
+
+    .blank-space {
+        width: 100%;
+        height: 40px;
+        border: 1px solid black;
+        background-color: #FAF3E0;
+    }
+
+    .img-17 {
+        height: fit-content;
+    }
+
+    .product-detail-layout {
+        flex-direction: column;
+        padding: 100px 0px;
+        gap: 60px;
+    }
+
+    .product-images {
+        flex: none;
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        border-right: none;
+        overflow-x: auto;
+    }
+
+    .front-display,
+    .back-display {
+        width: 45%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .product-info {
+        position: static;
+        flex: none;
+        padding: 0;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .back-button {
+        position: static;
+        align-self: flex-start;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+
+    .product-display-title {
+        position: static;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .product-display-price {
+        position: static;
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .button-container {
+        position: static;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .text-size {
+        font-size: 16px;
+    }
+
+    .text-size-btn {
+        font-size: 16px;
+    }
+
+    .request-text {
+        position: static;
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .product-description {
+        position: static;
+        width: 80%;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .total-order {
+        position: static;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .total-text,
+    .total-text-btn,
+    .total-text-span {
+        font-size: 18px;
+    }
+
+    .product-detail-button-container {
+        position: static;
+        flex-direction: row;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 10px;
+    }
+
+    .product-detail-btn {
+        width: fit-content;
+    }
+
+    .product-detail-btn-text-1,
+    .product-detail-btn-text-2 {
+        font-size: 15px;   
+    }
+
+    .img-10 {
+        height: auto;
+        flex-direction: column;
+        padding-top: 90px;
+        align-items: center;
+    }
+
+    .event-quote {
+        font-size: 25px;
+        position: static;
+        margin-bottom: 10px;
+    }
+
+    .event-description {
+        font-size: 12px;
+        position: static;
+        width: 90%;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+
+    .img-11 {
+        flex-direction: column;
+        height: auto;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .registration-form {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .form-heading {
+        font-size: 30px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .form {
+        position: static;
+        width: 100%;
+        height: auto;
+    }
+
+    .form-label {
+        font-size: 14px;
+    }
+
+    .input-form {
+        font-size: 14px;
+        height: 30px;
+        padding: 0 0 0 10px;
+        
+    }
+
+    .radio-container {
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    .terms {
+        position: static;
+        font-size: 15px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .registration-submit-button {
+        position: static;
+        width: 100%;
+        height: 45px;
+        margin-top: 5px;
+    }
+
+    .submit-text {
+        font-size: 15px;
+    }
+
+    .registration-img {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+
+    .registration-model {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .img-12 {
+        height: auto;
+        background-color: red;
+        padding-top: 60px;
+    }
+
+    .building {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about-us-heading {
+        font-size: 30px;
+        top: 120px;
+        letter-spacing: 0.5px;
+    }
+
+    .about-us-description {
+        font-size: 15px;
+        text-align: center;
+        top: 225px;
+        width: 80%;
+    }
+
+    .img-13 {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .brown_model {
+        position: static;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        padding: 20px 0px 0px 50px;
+    }
+
+    .img-13-heading {
+        font-size: 25px;
+        position: static;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .img-13-desc-1,
+    .img-13-desc-2 {
+        font-size: 15px;
+        position: static;
+        text-align: justify;
+        margin: 20px auto;
+        width: 70%;
+    }
+
+    .img-14 {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .our-story-img,
+    .logo-2-img,
+    .magnifier-img,
+    .castle-img {
+        position: static;
+        width: 80%;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .img-14-heading {
+        font-size: 28px;
+        position: static;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .img-14-description {
+        font-size: 12px;
+        width: 80%;
+        position: static;
+        text-align: justify;
+        margin-bottom: 30px;
+    }
+
+    .img-15 {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .box {
+        width: 50%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .box-img {
+        width: 80%;
+        height: auto;
+        position: static;
+    }
+
+    .box-heading {
+        font-size: 20px;
+        position: static;
+        margin-top: 20px;
+    }
+
+    .box-description {
+        font-size: 12px;
+        width: 90%;
+        position: static;
+        margin-top: 10px;
+    }
+
+    .img-16 {
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+
+    .img-16-span {
+        font-size: 25px;
+        text-align: center;
+    }
+}
