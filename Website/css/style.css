@@ -33,7 +33,7 @@ html {
 }
 
 .header-div {
-    background-color: #B1964C;
+    background-color: #CBB994;
     z-index: 1;
     width: 100%;
     height: 100%;
@@ -92,7 +92,7 @@ html {
 .side-navbar {
   width: 550px;
   height: 100vh;
-  background-color: #B1964C;
+  background-color: #CBB994;
   position: absolute;
   top: 0;
   left: 0;
@@ -267,7 +267,7 @@ html {
 }
 
 .option-button {
-    background-color: #FAF3E0;
+    background-color: #F3EDE2;
     position: absolute;
     top: 80%;
     padding: 16px 60px;
@@ -306,7 +306,7 @@ html {
 }
 
 .option-button:hover {
-    background-color: #B1964C;
+    background-color: #CBB994;
 }
 
 .option-button:hover .underlined-text::after {
@@ -316,7 +316,7 @@ html {
 .img-3 {
     width: 100%;
     height: 550px;
-    background-color: #FAF3E0;
+    background-color: #F3EDE2;
     display: flex;
     justify-content: center;
 }
@@ -470,7 +470,7 @@ html {
 .img-5 {
     width: 100%;
     height: 590px;
-    background-color: #FAF3E0;
+    background-color: #F3EDE2;
     display: flex;
     justify-content: center;
 }
@@ -577,7 +577,7 @@ html {
 
 .part-button {
     border: 0;
-    background-color: #FAF3E0;
+    background-color: #F3EDE2;
     width: 200px;
     height: 50px;
     position: absolute;
@@ -587,7 +587,7 @@ html {
 }
 
 .part-button:hover {
-    background-color: #B1964C;
+    background-color: #CBB994;
 }
 
 .part-button:hover .underlined-text::after {
@@ -736,7 +736,7 @@ html {
 .img-9 {
     width: 100%;
     height: 550px;
-    background-color: #FAF3E0;
+    background-color: #F3EDE2;
     display: flex;
     justify-content: center;
     border: 1px solid black;
@@ -824,7 +824,7 @@ html {
     width: 100%;
     height: 40px;
     border: 1px solid black;
-    background-color: #FAF3E0;
+    background-color: #F3EDE2;
 }
 
 .img-10 {
@@ -862,7 +862,7 @@ html {
 
 .img-11 {
     width: 100%;
-    background-color: #FAF3E0;
+    background-color: #F3EDE2;
     height: 600px;
 }
 
@@ -918,7 +918,7 @@ html {
 .input-form {
   width: 100%;
   height: 35px;
-  background-color: #FAF3E0;
+  background-color: #F3EDE2;
   border: 1px solid black;
   border-radius: 10px;
   padding: 0 20px;
@@ -1049,7 +1049,7 @@ html {
 .footer-img-bottom {
     width: 100%;
     height: 250px;
-    background-color: #B1964C;
+    background-color: #CBB994;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -1097,7 +1097,7 @@ html {
 }
 
 .img-13 {
-    background-color: #FAF3E0;
+    background-color: #F3EDE2;
     width: 100%;
     height: 500px;
 }
@@ -1146,7 +1146,7 @@ html {
 .img-14 {
     width: 100%;
     height: 1075px;
-    background-color: #FAF3E0;
+    background-color: #F3EDE2;
 }
 
 .img-16 {
@@ -1229,7 +1229,7 @@ html {
 .img-15 {
     width: 100%;
     height: 400px;
-    background-color: #FAF3E0;
+    background-color: #F3EDE2;
     display: flex;
     flex-direction: row;
     gap: 100px;
@@ -1274,7 +1274,7 @@ html {
 .img-17 {
     width: 100%;
     height: 600px;
-    background-color: #FAF3E0;
+    background-color: #F3EDE2;
 }
 
 .product-detail-layout {
@@ -1282,7 +1282,7 @@ html {
     align-items: flex-start;
     gap: 50px;
     padding: 150px 100px 100px 100px;
-    background-color: #FAF3E0;
+    background-color: #F3EDE2;
 }
 
 .product-images {
@@ -1832,7 +1832,7 @@ html {
     .footer-img-bottom {
         width: 100%;
         height: 250px;
-        background-color: #B1964C;
+        background-color: #CBB994;
         overflow: hidden;
         display: flex;
         justify-content: center;
@@ -1917,7 +1917,7 @@ html {
         width: 100%;
         height: 40px;
         border: 1px solid black;
-        background-color: #FAF3E0;
+        background-color: #F3EDE2;
     }
 
     .img-17 {
