@@ -103,5 +103,3 @@ This project is developed as part of the **AOL (Final Project)** using **vanilla
 
 **Christian Wijaya – AOL Project**
 Computer Science | Front-End Development
-
----
